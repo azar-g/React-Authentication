@@ -7,7 +7,7 @@ import HomePage from "./pages/HomePage";
 import AuthContext from "./components/store/AuthContext";
 import { useContext } from "react";
 
-function App() {
+const App = () => {
   const { isLoggedIn } = useContext(AuthContext);
   return (
     <Layout>
@@ -30,6 +30,6 @@ function App() {
       </Switch>
     </Layout>
   );
-}
+};
 
 export default App;
