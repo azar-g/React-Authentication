@@ -4,7 +4,7 @@ import { useContext } from "react";
 
 const AuthPage = () => {
   const context = useContext(AuthContext);
-  console.log(context);
+  // console.log(context);
   return <AuthForm />;
 };
 
